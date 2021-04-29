@@ -1,0 +1,152 @@
+<!--doctype html-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>Marin Druzijanic Portfolio</title>
+<link rel='stylesheet' type="text/css" href="stylesheet.css">
+	<!--style----->
+	<style>
+		body{
+			font-family:poppins;
+		}
+	</style>
+	 
+  <!--using FontAwesome---------------->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<section>
+	<!--navigation------------------------->
+	<nav>
+	<!--logo-->
+	<a href="#" class="logo"></a>
+	<!--menu-->
+	<ul>
+	<li><a href="#" class="active">Home</a></li>
+	<li><a href="#rad">Radovi</a></li>
+	</ul>
+	<!--bars--------------->
+	<div class="toggle"></div>
+	
+	</nav>
+	<!--text----------------------->
+		<div class="text-container">
+			<p>Bok,</p>
+		    <p>Ja sam Marin</p>
+			<p>UX/UI<br>& Designer</p>
+
+			<button class="down-cv"><a href="https://drive.google.com/file/d/1jPxktvf8rWwowRqW9j8wwzYoHizFYqu-/view?usp=sharing">Skini CV</a></button>
+		</div>
+	<!--model---------------------->
+	<img alt="ja" class="model" src="images/sjena2.png">  
+	<div class="about-container">
+
+</div>
+ </section>
+ <!--services-container---------------------------->
+	<div class="services ">
+		<!--text-->
+		<div class="services-text ">
+	<p>Alati</p>
+	<p>Neki od alata koje koristim</p>
+			</div>
+		<div class="box-container">
+		<!--1------------->
+		
+			<div class="box-1">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1051px-Adobe_Photoshop_CC_icon.svg.png" width="100">
+			<br>
+			<span>Adobe </span>
+			<span>Photoshop</span>
+
+			
+			</div>
+			
+	   <!--2------------->
+			<div class="box-2">
+			<img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/512px-Adobe_Illustrator_CC_icon.svg.png" width="100">
+			<br>
+			<span>Adobe </span>
+			<span>Illustrator</span>
+			
+			</div>
+		<!--3------------->
+			<div class="box-3">
+			<img src ="https://static.viget.com/icon-figma.png?mtime=20170814145600&focal=none" height="100">
+			<span> </span>
+			<span>Figma</span>
+			
+			
+			</div>
+		</div>
+	</div>
+	<div class="radovi " id="rad">
+ <div class="radovi-text">
+ <p> Neki od radova</p><br>
+ </div>
+ <div class ="slike">
+  <div class="prototip">
+  <p>Fitness app UX prototip</p><br>
+  </div>
+   <img class="fitness" src="mock/fitness3.png">
+   <div class="prototip">
+  <p>Music app UX prototip</p><br>
+  </div>
+  <img class="blinding" src="mock/music.png">
+  <div class="prototip">
+  <p>Napoleon Photoshop</p><br>
+  </div>
+<img class="napoleon" src="mock/napoleon.png">
+<div class="prototip">
+  <p>Dizajn za firmu (logo, vizitke)</p><br>
+  </div>
+<img class="veta" src="test3.jpg">
+<br>
+ </div>
+  </div>
+ <!--footer--------------->
+ <footer>
+	 <!--heading-->
+  <p>Marin Druzijanic</p>
+	 <!--paragraph-->
+	 <p>Ovaj portfolio je izraden u svrhu prezentacije nekih od radova</p>
+	 <!--social-->
+	<div class="social-icons">
+	<a href="#"><i class="fab fa-facebook-f"></i></a>
+	<a href="#"><i class="fab fa-twitter"></i></a>
+	<a href="#"><i class="fab fa-instagram"></i></a>
+	<a href="#"><i class="fab fa-youtube"></i></a>
+	</div>
+	 <!--copyright-->
+	 <p class="copyright"></p>
+</footer>
+	<!--social-attach-bar-->
+	<div class="social">
+	<a href="#"><i class="fab fa-facebook-f"></i></a>
+	<a href="#"><i class="fab fa-twitter"></i></a>
+	<a href="#"><i class="fab fa-instagram"></i></a>
+	<a href="#"><i class="fab fa-youtube"></i></a>
+	</div>
+  
+  
+  
+  <!--JQUery-------------------->
+<script type="text/javascript" src="js/JQuery.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.toggle').click(function(){
+			$('.toggle').toggleClass('active')
+			$('nav').toggleClass('active')
+		})
+	})
+	</script>
+	
+	<script language="JavaScript">
+    document.oncontextmenu =new Function("return false;")
+</script>
+  
+</body>
+</html>
